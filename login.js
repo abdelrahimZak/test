@@ -21,7 +21,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:3000/Authenticate", requestOptions)
+fetch("https://ancient-basin-17410.herokuapp.com/Authenticate", requestOptions)
   .then(response => response.json())
   .then(result =>{
    window.alert((result)?"welcom":"wrong password or user email");

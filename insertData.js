@@ -20,7 +20,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:3000/AddUser", requestOptions)
+fetch("https://ancient-basin-17410.herokuapp.com/AddUser", requestOptions)
   .then(response => response.text())
   .then(result =>{
    window.alert(result);

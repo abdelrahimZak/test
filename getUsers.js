@@ -3,7 +3,8 @@ document.getElementById('submit').onclick=get;
 function get(){
     var email = document.getElementById("email").value;
     
-    var url=(email=="")?"http://localhost:3000/users/":"http://localhost:3000/getUser?email="+email;
+    var url=(email=="")?"https://ancient-basin-17410.herokuapp.com/users/":
+    "https://ancient-basin-17410.herokuapp.com/getUser?email="+email;
 
     var table= document.getElementById("table");
     table.innerHTML="<tr><th>email</th><th>password</th></tr>";
