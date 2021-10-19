@@ -29,13 +29,13 @@ fetch("https://ancient-basin-17410.herokuapp.com/Authenticate", requestOptions)
   .then(result =>{
   if(result)
   {
-    window.alert("welcome");
+    
     document.location.href="welcomePage.html?name="+email;
    
     
   }
   else{
-    window.alert("wrong");
+    document.getElementById("alert").removeAttribute("hidden");
   }
     
   } )
