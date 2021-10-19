@@ -46,7 +46,7 @@ body {
   url('https://static.wixstatic.com/media/b62bfa_94aaf971badf48afa7ff8645b41d0c4e~mv2_d_3899_2619_s_4_2.jpg/v1/fill/w_560,h_376,al_c,q_80,usm_0.66_1.00_0.01/b62bfa_94aaf971badf48afa7ff8645b41d0c4e~mv2_d_3899_2619_s_4_2.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% ;
   /*height: 100%; */
   /*min-height: 100%;*/
 }
